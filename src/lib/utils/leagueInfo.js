@@ -136,12 +136,11 @@ export const managers = [
     //   "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
        {
-       "roster": 6,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "roster": 6,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
        "name": "Dan",
     //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Philly", // (optional)
        "bio": "Lorem ipsum...",
-       "championships": 2019,
     //   "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
     //   "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "ten", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
