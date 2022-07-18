@@ -23,7 +23,6 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 */
 
 // To omit an optional field, set it's value to null
-
 export const managers = [
      {
        "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
@@ -136,7 +135,7 @@ export const managers = [
     //   "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
        {
-      "roster": 6,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "roster": 6,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
        "name": "Dan",
     //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Philly", // (optional)
@@ -145,9 +144,9 @@ export const managers = [
     //   "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "ten", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
     //   "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
-       "rival": {
-          name: "Greg", // Can be anything (usually your rival's name)
-         link: 3, // manager array number within this array, or null to link back to all managers page
+    //   "rival": {
+    //      name: "Greg", // Can be anything (usually your rival's name)
+    //     link: 3, // manager array number within this array, or null to link back to all managers page
     //     image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
     //   },
     "favoritePlayer": 3198, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
@@ -225,7 +224,7 @@ export const managers = [
      },
         {
       "roster": 10,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "New Person",
+      "name": "Evan",
     //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Brooklyn", // (optional)
        "bio": "Lorem ipsum...",
